@@ -33,7 +33,7 @@ variable mytimestep                equal  0.001
 
 # Run variables
 variable corlength                 equal  1000
-variable sampleinterval            equal  10
+variable sampleinterval            equal  100
 
 variable                           holdtemp file temperature.txt
 variable                           vischold equal 10000000

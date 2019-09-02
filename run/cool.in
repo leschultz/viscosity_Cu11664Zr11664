@@ -42,11 +42,11 @@ variable corlength                 equal  1000
 variable sampleinterval            equal  10
 
 variable eqtemp                    equal  2000
-variable eqhold                    equal  10000000
+variable eqhold                    equal  5000000
 
 variable i                         loop   19
 variable dt                        equal  100
-variable stephold                  equal  100000
+variable stephold                  equal  1000000
 
 # Computed values by LAMMPS
 compute  temp      all temp                 # Overall temperature
@@ -66,7 +66,7 @@ variable pxz equal pxz
 variable pyz equal pyz
 
 # Data output
-variable mydumprate                equal  1000
+variable mydumprate                equal  100
 variable data_file_characteristics string system.txt
 variable data_file_dump_rate       string traj.lammpstrj
 
