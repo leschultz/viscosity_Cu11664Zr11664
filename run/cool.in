@@ -66,7 +66,7 @@ variable pxz equal pxz
 variable pyz equal pyz
 
 # Data output
-variable mydumprate                equal  100
+variable mydumprate                equal  10000
 variable data_file_characteristics string system.txt
 variable data_file_dump_rate       string traj.lammpstrj
 
