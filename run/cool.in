@@ -13,13 +13,13 @@ boundary   p p p
 # Simulation space
 lattice      fcc 4.04092655671750
 
-region       simbox prism 0 18 0 18 0 18 0 0 0
+region       simbox prism 0 5 0 5 0 5 0 0 0
 create_box   2 simbox
 create_atoms 1 box
 
 # Set the types of atoms
-set atom 1*11664 type 1
-set atom 11665*23328 type 2
+set atom 1*250 type 1
+set atom 251*500 type 2
 
 # Remove extra atoms
 #group remove id 51201:55296
